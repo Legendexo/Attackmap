@@ -22,7 +22,7 @@ This program relies entirely on syslog, and because all appliances format logs d
 6. **IMPORTANT: Remember, this code will only run correctly in a production environment after personalizing the parsing functions. The default parsing function is only written to parse ./syslog-gen.sh traffic.**
 
 ### Bugs, Feedback, and Questions
-If you find any errors or bugs, please let me know. Questions and feedback are also welcome, and can be sent to mcmay.web@gmail.com, or open an issue in this repository.
+If you find any errors or bugs, please let me know. Questions and feedback are also welcome, and can be sent to cybermanexo@gmail.com, or open an issue in this repository.
 
 
 ### Deploy example
