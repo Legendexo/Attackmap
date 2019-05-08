@@ -4,7 +4,7 @@ I do not have much time in my life right now to maintain this project. I underto
 NOTE: Because I don't maintain this project there are a few features that probably don't work out the box, for example, the map probably won't display because I don't pay for a legitimate MapBox API key. To fix this you will probably have to create your own MapBox account and use your own key.
 
 ### Cyber Security GeoIP Attack Map Visualization
-This geoip attack map visualizer was developed to display network attacks on your organization in real time. The data server follows a syslog file, and parses out source IP, destination IP, source port, and destination port. Protocols are determined via common ports, and the visualizations vary in color based on protocol type. [CLICK HERE](https://www.youtube.com/watch?v=zTvLJjTzJnU) for a demo video. This project would not be possible if it weren't for Sam Cappella, who created a cyber defense competition network traffic visualizer for the 2015 Palmetto Cyber Defense Competition. I mainly used his code as a reference, but I did borrow a few functions while creating the display server, and visual aspects of the webapp. I would also like to give special thanks to [Dylan Madisetti](http://www.dylanmadisetti.com/) as well for giving me advice about certain aspects of my implementation.
+This geoip attack map visualizer was developed to display network attacks on your organization in real time. The data server follows a syslog file, and parses out source IP, destination IP, source port, and destination port. Protocols are determined via common ports, and the visualizations vary in color based on protocol type. [CLICK HERE](https://https://youtu.be/5xq-zPPPbXY) for a demo video. This project would not be possible if it weren't for Sam Cappella, who created a cyber defense competition network traffic visualizer for the 2015 Palmetto Cyber Defense Competition. I mainly used his code as a reference, but I did borrow a few functions while creating the display server, and visual aspects of the webapp. I would also like to give special thanks to [Tural Aliyev](http://www.mtasecurity.com/) as well for giving me advice about certain aspects of my implementation.
 
 ### Important
 This program relies entirely on syslog, and because all appliances format logs differently, you will need to customize the log parsing function(s). If your organization uses a security information and event management system (SIEM), it can probably normalize logs to save you a ton of time writing regex.
@@ -31,7 +31,7 @@ Tested on Ubuntu 16.04 LTS.
 * Clone the application:
 
   ```sh
-  git clone https://github.com/matthewclarkmay/geoip-attack-map.git
+ https://github.com/Legendexo/Attackmap
   ```
 
 * Install system dependencies:
